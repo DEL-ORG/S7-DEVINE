@@ -2,11 +2,11 @@ FROM httpd:2.4
 COPY ./public-html/ /usr/local/apache2/htdocs/
 WORKDIR /app
 
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=mydatabase
-DB_USER=myuser
-DB_PASSWORD=mypassword
+RUN DB_HOST=localhost
+RUN DB_PORT=5432
+RUN DB_NAME=mydatabase
+RUN DB_USER=myuser
+RUN DB_PASSWORD=mypassword
 
 
 
