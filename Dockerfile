@@ -6,3 +6,6 @@ DB_PORT=5432
 DB_NAME=mydatabase
 DB_USER=myuser
 DB_PASSWORD=mypassword
+
+
+
