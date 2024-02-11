@@ -1,11 +1,11 @@
 FROM httpd:2.4
 COPY ./public-html/ /usr/local/apache2/htdocs/
 WORKDIR /app
-ENV DB_HOST=localhost
-ENV DB_PORT=5432
-ENV DB_NAME=mydatabase
-ENV DB_USER=myuser
-ENV DB_PASSWORD=mypassword
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=mydatabase
+DB_USER=myuser
+DB_PASSWORD=mypassword
 # Set metadata for the container
 LABEL phone="800-989-5000" 
 LABEL address="14225 DevOps Success Rd, Houston"
