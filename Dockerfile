@@ -7,7 +7,6 @@ WORKDIR /app
 LABEL phone="800-989-5000" 
 LABEL address="14225 DevOps Success Rd, Houston, 
 LABEL email="info@devops.com"
-
 APP=DEVINE
 SECTION=V1 
 HOST=devopseasylearning.com
