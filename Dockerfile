@@ -1,6 +1,4 @@
-FROM httpd:2.4
-COPY ./public-html/ /usr/local/apache2/htdocs/
-WORKDIR /app
+
 COPY ./postgres.conf /var/lib/
 # Set metadata for the container
 LABEL phone="800-989-5000" 
